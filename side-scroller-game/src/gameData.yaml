@@ -1,0 +1,41 @@
+player:
+  pos: { x: 60, y: 480 }
+  size: { x: 48, y: 48 }
+  color: "#b6aaff"
+  velocity: { x: 0, y: 0 }
+
+levels:
+  - name: "Level 1"
+    themeColor: "#e74c3c"
+    enemies:
+      - pos: { x: 400, y: 480 }
+        size: { x: 48, y: 48 }
+        color: "#e74c3c"
+        alive: true
+      - pos: { x: 700, y: 480 }
+        size: { x: 48, y: 48 }
+        color: "#e74c3c"
+        alive: true
+      - type: boss
+        pos: { x: 1200, y: 432 }
+        size: { x: 96, y: 96 }
+        color: "#222"
+        alive: true
+        health: 20
+  - name: "Level 2"
+    themeColor: "#2196f3"
+    enemies:
+      - pos: { x: 500, y: 480 }
+        size: { x: 48, y: 48 }
+        color: "#4caf50"
+        alive: true
+      - pos: { x: 900, y: 480 }
+        size: { x: 48, y: 48 }
+        color: "#2196f3"
+        alive: true
+      - type: boss
+        pos: { x: 1200, y: 432 }
+        size: { x: 96, y: 96 }
+        color: "#222"
+        alive: true
+        health: 20

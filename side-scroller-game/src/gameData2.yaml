@@ -1,0 +1,41 @@
+player:
+  pos: { x: 120, y: 400 }
+  size: { x: 48, y: 48 }
+  color: "#ffb347"
+  velocity: { x: 0, y: 0 }
+
+levels:
+  - name: "Desert Dash"
+    themeColor: "#ffd700"
+    enemies:
+      - pos: { x: 350, y: 400 }
+        size: { x: 48, y: 48 }
+        color: "#ff6347"
+        alive: true
+      - pos: { x: 800, y: 400 }
+        size: { x: 48, y: 48 }
+        color: "#ffd700"
+        alive: true
+      - type: boss
+        pos: { x: 1200, y: 352 }
+        size: { x: 96, y: 96 }
+        color: "#222"
+        alive: true
+        health: 20
+  - name: "Cave Chaos"
+    themeColor: "#8e44ad"
+    enemies:
+      - pos: { x: 600, y: 400 }
+        size: { x: 48, y: 48 }
+        color: "#8e44ad"
+        alive: true
+      - pos: { x: 950, y: 400 }
+        size: { x: 48, y: 48 }
+        color: "#00bfff"
+        alive: true
+      - type: boss
+        pos: { x: 1200, y: 352 }
+        size: { x: 96, y: 96 }
+        color: "#222"
+        alive: true
+        health: 20
